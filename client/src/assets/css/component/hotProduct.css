@@ -1,0 +1,79 @@
+#hot{
+    background-color: #f4f4f4;
+}
+#hot>div{
+    width: 1190px;
+    margin: 0 auto;
+}
+#hot>div::before{
+    content: "";
+    display: table;
+}
+#hot .title{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+#hot .list{
+    min-height: 50px;
+    padding-bottom: 10px;
+}
+#hot .list::before{
+    content: "";
+    display: table;
+}
+#hot .list::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#hot .item{
+    border: 1px solid transparent;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+    float: left;
+    padding: 20px 20px 0 20px;
+    width: 196px;height: 312px;
+    color: #666;
+    background-color: #fff;
+}
+#hot .item>a{
+    color: #666;
+    font-size: 14px;
+}
+#hot .item>a>h4{
+    margin-top: 7px;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+}
+#hot .item>a>div{
+    width: 197px;height: 197px;
+    overflow: hidden;
+}
+#hot .item>a>div>img{
+    width: 101%;height: 100%;
+    display: block;
+}
+#hot .info{
+    margin-top: 22px;
+    height: 24px;
+    line-height: 24px;
+}
+#hot .price{
+    float: left;
+    font-size: 20px;
+    color: #f40;
+}
+#hot .price>em{
+    font-size: 12px;
+}
+#hot .saled{
+    float: right;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #9ca0aa;
+    margin-top: 3px;
+}

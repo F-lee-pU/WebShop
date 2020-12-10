@@ -1,0 +1,70 @@
+#list{
+    background-color: #f4f4f4;
+}
+#list>div{
+    width: 1190px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding: 10px 0;
+}
+#list .page{
+    text-align: center;
+}
+#list .list::before{
+    content: "";
+    display: table;
+}
+#list .list::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#list .item{
+    border: 1px solid transparent;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+    float: left;
+    padding: 20px 20px 0 20px;
+    width: 196px;height: 312px;
+    color: #666;
+    background-color: #fff;
+}
+#list .item>a{
+    color: #666;
+    font-size: 14px;
+}
+#list .item>a>h4{
+    margin-top: 7px;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+}
+#list .item>a>div{
+    width: 197px;height: 197px;
+    overflow: hidden;
+}
+#list .item>a>div>img{
+    width: 101%;height: 100%;
+    display: block;
+}
+#list .info{
+    margin-top: 22px;
+    height: 24px;
+    line-height: 24px;
+}
+#list .price{
+    float: left;
+    font-size: 20px;
+    color: #f40;
+}
+#list .price>em{
+    font-size: 12px;
+}
+#list .saled{
+    float: right;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #9ca0aa;
+    margin-top: 3px;
+}

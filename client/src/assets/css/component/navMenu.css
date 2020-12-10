@@ -1,0 +1,75 @@
+#navbar{
+    background-color: #f2f2f2;
+}
+#navbar a:hover{
+    color: red;
+}
+#navbar>div{
+    width: 1190px;height: 26px;
+    margin: 0 auto;
+    position: relative;
+}
+#navbar>div>p{
+    float: left;
+    font-size: 12px;
+    line-height: 26px;
+}
+#navbar>div>p a{
+    color: #999;
+}
+#navbar>div>p em{
+    color: #999;   
+}
+#navbar>div>p:first-child{
+    position: relative;
+}
+#navbar>div>p:first-child{
+    margin-right: 20px;
+}
+#navbar>div>p:first-child>img{
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+}
+#navbar .loginInfo{
+    display: inline-block;
+}
+#navbar .loginInfo>a{
+    padding: 0 10px;
+}
+#navbar .loginInfo>a:nth-child(2){
+    padding-left: 20px;
+}
+#navbar .loginInfo>em:last-child{
+    cursor: pointer;
+}
+#navbar .loginInfo>em:last-child:hover{
+    color: red;
+    text-decoration: underline;
+}
+#navbar .el-menu{
+    height: 26px;
+    position: absolute;
+    right: 0;
+}
+#navbar .el-menu div{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+}
+#navbar .el-menu li{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+}
+#navbar
+.el-menu-item:hover {
+	color: red !important;
+	background-color: #fff !important;
+}
+#navbar
+.el-submenu__title:focus,
+.el-submenu__title:hover {
+	color: red !important;
+	background-color: #fff !important;
+}

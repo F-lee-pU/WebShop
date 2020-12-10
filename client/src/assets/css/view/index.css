@@ -1,0 +1,7 @@
+#main{
+    background-color: #f4f4f4;
+}
+#main>div{
+    width: 1190px;
+    margin: 0 auto;
+}

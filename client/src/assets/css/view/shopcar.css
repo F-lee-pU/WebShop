@@ -1,0 +1,121 @@
+#shopcar{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+#shopcar .emptyCar{
+    font-size: 16px;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 30px;
+}
+#shopcar .emptyCar a:hover{
+    color: salmon;
+}
+#shopcar .carList{
+    position: relative;
+}
+#shopcar .carList>div:nth-child(2){
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+}
+#shopcar .carList>div:nth-child(2)>div{
+    float: left;
+    margin-right: 20px;
+}
+#shopcar .carList>div:nth-child(2)>div:nth-child(2){
+    width: 588px;
+    text-align: center;
+}
+#shopcar .carList>div:nth-child(2)>div:nth-child(3){
+    width: 65px;
+    text-align: center;
+}
+#shopcar .carList>div:nth-child(2)>div:nth-child(4){
+    width: 180px;
+    text-align: center;
+}
+#shopcar .carList>div:nth-child(2)>div:nth-child(5){
+    width: 73px;
+    text-align: center;
+}
+#shopcar .carList>div:nth-child(2)>div:nth-child(6){
+    width: 78px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 0;
+}
+#shopcar .productInfo{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#shopcar .productInfo>div{
+    height: 200px;
+    line-height: 200px;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+#shopcar .productInfo::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#shopcar .productInfo>.productImage{
+    width: 200px;
+}
+#shopcar .productInfo>.productImage>img{
+    width: 100%;
+}
+#shopcar .productInfo>.title{
+    width: 400px;
+    line-height: 20px;
+    height: 40px;
+    margin-top: 80px;
+}
+#shopcar .productInfo>.money{
+    width: 80px;
+}
+#shopcar .productInfo>.control{
+    width: 80px;
+    margin-right: 0px;
+    text-align: center;
+}
+#shopcar .productInfo>.control>span{
+    cursor: pointer;
+}
+#shopcar .productInfo>.control>span:hover{
+    color: red;
+    text-decoration: underline;
+}
+#total{
+    background-color: #ccc;
+    width: 100%;height: 50px;
+    z-index: 999;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+#total>div{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 170px;
+}
+#total>div:first-child>span{
+    display: inline-block;
+    cursor: pointer;
+}
+#total>div:first-child>span:hover{
+    color: red;
+    text-decoration: underline;
+}
+#total>div:last-child{
+    float: right;
+    color: #ff4400;
+}

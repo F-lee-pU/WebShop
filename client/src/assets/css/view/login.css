@@ -1,0 +1,122 @@
+#login .brand{
+    width: 1190px;
+    margin: 10px auto;
+    padding: 22px 0;
+}
+#login .brand a{
+    text-decoration: none;
+}
+#login .brand span{
+    font-size: 2rem;
+    font-family: '华文行楷';
+    color: red;
+    text-shadow: 5px 5px 5px #000;
+}
+#login .container{
+    height: 550px;
+    background-position: 40%;
+    background-image: url(../../../../public/images/log_re_bg.jpg);
+    position: relative;
+}
+#login .container::before{
+    content: "";
+    display: table;
+}
+#login .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#login .container>div{
+    width: 1190px;
+    margin: 0 auto;
+}
+#login .form{
+    width: 360px;height: 438px;
+    float: right;
+    margin: 18px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+#login .is-top,.is-active{
+    color: #FF734C;
+}
+#login .el-tabs__item{
+    width: 180px;height: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+#login .el-tabs__active-bar{
+    background-color: #FF734C;
+}
+#login .uname-login,.phone-login{
+    padding: 5px 15px;
+}
+#login .form input{
+    margin: 10px 0;
+}
+#login .btn-login{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background-color: #FF734C;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    margin-top: 10px;
+    padding: 9px 0;
+}
+#login .btn-login:disabled{
+    cursor: not-allowed;
+    background-color: #71797f;
+}
+#login .uname-login>:last-child{
+    margin-top: 12px;
+    text-align: center;
+}
+#login .forget{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    color: #71797f;
+    text-align: center;
+    font-size: 13px;
+}
+#login .forget:hover{
+    text-decoration: none;
+}
+#login .form-footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #F7F9FA;
+    display: block;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+}
+#login .form-footer li{
+    display: inline-block;
+    margin: 0 16px;
+}
+#login .form-footer img{
+    margin-top: 16px;
+    margin-right: 4px;
+    vertical-align: top;
+    cursor: pointer;
+}
+#login .form-footer span{
+    font-size: 12px;
+    color: #71797f;
+    cursor: pointer;
+}
+#login .form-footer li:last-child{
+    display: list-item;
+    float: right;
+}
+#login .form-footer a{
+    font-size: 14px;
+    color: #FF734C;
+}

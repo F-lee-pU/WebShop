@@ -1,0 +1,151 @@
+#register{
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#register .agreement{
+    width: 680px;
+    margin: 0 auto;
+    border: 2px solid #dedede;
+    border-top-color: red;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 84px;
+}
+#register .agreement p{
+    font-size: 12px;
+    margin: 8px 0 0 5px;
+    font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+}
+#register .agreement p>a{
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+}
+#register .agreement p:last-child{
+    text-align: center;
+}
+#register .agreement button,
+.user-info button,
+.reg-success button{
+    width: 180px;height: 36px;
+    color: #fff;
+    background-color: #ff0036;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#register button:hover{
+    background-color: red;
+}
+#register .user-name{
+    width: 680px;height: 494px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#register .user-name .el-select .el-input {
+    width: 150px;
+    font-size: 14px;
+    color: #3c3c3c;
+}
+#register .user-name .input-with-select .el-input-group__prepend {
+    background-color: #fff;
+}
+#register .user-name>div{
+    margin-top: 30px;
+    text-align: center;
+}
+#register .user-name>div>span{
+    font-size: 14px;
+    margin-right: 20px;
+}
+#register .user-name>div>div:nth-child(2){
+    width: 340px;
+}
+#register .user-name>div:nth-child(2) button:hover{
+    background-color: #dedede;
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+#register .user-name>div>div:last-child{
+    display: inline-block;
+    width: 128px;
+    font-size: 14px;
+    text-align: left;
+}
+#register .user-name>div>div:last-child i{
+    padding-left: 3px;
+}
+#register .user-name>div>div:last-child span{
+    text-align: center;
+}
+#register .user-name>div:last-child>button{
+    width: 180px;height: 36px;
+    color: #fff;
+    background-color: #ff0036;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#register .user-info{
+    width: 900px;height: 494px;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+#register .user-info>div{
+    margin-top: 50px; 
+    font-size: 14px;
+}
+#register .user-info>div>span:first-child{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    font-weight: 700;
+    margin-right: 20px;
+}
+#register .user-info>div>span:last-child{
+    display: inline-block;
+    text-align: left;
+}
+#register .user-info>div>div:nth-child(2){
+    width: 300px;
+}
+#register .user-info>div>div:last-child{
+    display: inline-block;
+    width: 260px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#register .user-info>div:last-child{
+    text-align: center;
+}
+#register .reg-success{
+    width: 360px;height: 494px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#register .reg-success>div{
+    margin-top: 50px;
+}
+#register .reg-success p{
+    font-size: 20px;
+    color: green;
+    padding : 30px 0;
+}
+#register .success{
+    color: green !important;
+}
+#register .error{
+    color: red !important;
+}

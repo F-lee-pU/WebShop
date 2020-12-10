@@ -1,0 +1,37 @@
+#searchBar{
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+}
+#searchBar>div:first-child{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    font-size: 64px;
+    font-family: serif;
+    font-style: italic;
+}
+#searchBar>div:first-child a{
+    color: salmon;
+    text-shadow: 5px 0 5px #ff00ff;
+}
+#searchBar>div:first-child a:hover{
+    text-decoration: none;
+}
+#searchBar>div:last-child{
+    display: inline-block;
+    width: 270px;
+    text-align: right;
+}
+#searchBar>div:last-child a{
+    color: salmon;
+    margin-left: 10px;
+}
+#searchBar>div:last-child a:hover{
+    text-decoration: none;
+    color: sienna;
+}
+#searchBar .el-input{
+    width: 600px;
+    margin-left: 70px;
+}
